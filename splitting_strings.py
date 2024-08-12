@@ -5,7 +5,7 @@
 # Parameters first_string, second_string
 
 # Constraints both strings will be non-empty
-
+# This is my solution
 def check_strings(str1, str2):
     i = 0
     for item in str1:
@@ -16,6 +16,10 @@ def check_strings(str1, str2):
         else:
             return False
 
+# This is the solution that video provides
+
+def check_strings_2(first_string, second_string):
+    return first_string == second_string
 
 
 str1 = "Python is fun!"
